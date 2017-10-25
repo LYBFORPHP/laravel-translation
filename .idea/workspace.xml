@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51a21b7c-4cf6-498d-9f93-60767909ecb0" name="Default" comment="1st day">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/laravel-master.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/.env.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Console/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Exceptions/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Controllers/Auth/ForgotPasswordController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Controllers/Auth/LoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Controllers/Auth/RegisterController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Controllers/Auth/ResetPasswordController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Controllers/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Middleware/EncryptCookies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Middleware/TrimStrings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Middleware/TrustProxies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Providers/AppServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Providers/AuthServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Providers/BroadcastServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Providers/EventServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/Providers/RouteServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/app/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/artisan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/bootstrap/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/bootstrap/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/broadcasting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/filesystems.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/services.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/config/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/database/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/database/factories/UserFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/database/seeds/DatabaseSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/public/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/public/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/public/web.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/assets/js/components/ExampleComponent.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/assets/sass/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/assets/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/lang/en/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/lang/en/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/lang/en/passwords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/lang/en/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/resources/views/welcome.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/routes/api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/routes/channels.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/routes/console.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/routes/web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/storage/app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/storage/app/public/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/storage/framework/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/storage/framework/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/storage/framework/sessions/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/storage/framework/testing/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/storage/framework/views/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/storage/logs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/tests/CreatesApplication.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/tests/Feature/ExampleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/tests/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/tests/Unit/ExampleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/bin/doctrine-dbal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/bin/doctrine-dbal.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/bin/php-parse" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/bin/phpunit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/bin/psysh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/composer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/composer/autoload_files.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/composer/autoload_static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/dnoegel/php-xdg-base-dir/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/dnoegel/php-xdg-base-dir/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/dnoegel/php-xdg-base-dir/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/dnoegel/php-xdg-base-dir/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/dnoegel/php-xdg-base-dir/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/dnoegel/php-xdg-base-dir/src/Xdg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/dnoegel/php-xdg-base-dir/tests/XdgTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/bin/doctrine-dbal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/bin/doctrine-dbal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/ArrayStatement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/CacheException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/QueryCacheProfile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/ResultCacheStatement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractDB2Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractDriverException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractOracleDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractPostgreSQLDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLAnywhereDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLServerDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLiteDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/DriverException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/DrizzlePDOMySql/Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/DrizzlePDOMySql/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/ExceptionConverterDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Statement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/MysqliConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/MysqliException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/MysqliStatement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Statement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOIbm/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOOracle/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOPgSql/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlite/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlsrv/Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlsrv/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlsrv/Statement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PingableConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/ResultStatement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/SQLAnywhereConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/SQLAnywhereException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/SQLAnywhereStatement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/LastInsertId.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/SQLSrvConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/SQLSrvException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/SQLSrvStatement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/ServerInfoAwareConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Statement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/ConnectionEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/Listeners/MysqlSessionInit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/Listeners/OracleSessionInit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/Listeners/SQLSessionInit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaAlterTableAddColumnEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaAlterTableChangeColumnEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaAlterTableEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaAlterTableRemoveColumnEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaAlterTableRenameColumnEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaColumnDefinitionEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaCreateTableColumnEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaCreateTableEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaDropTableEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Event/SchemaIndexDefinitionEventArgs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Id/TableGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Id/TableGeneratorSchemaVisitor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/Expression/CompositeExpression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/Expression/ExpressionBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/QueryBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/QueryException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/AbstractAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/AbstractSchemaManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel-master/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Column.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel-master/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel-master/bootstrap/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel-master/vendor/laravel/framework/src/Illuminate/Foundation/Application.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="551" column="50" lean-forward="false" selection-start-line="551" selection-start-column="50" selection-end-line="551" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Container.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel-master/vendor/laravel/framework/src/Illuminate/Container/Container.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6460">
+              <caret line="346" column="20" lean-forward="false" selection-start-line="346" selection-start-column="20" selection-end-line="346" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>autoload</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/laravel-master/public/index.php" />
+        <option value="$PROJECT_DIR$/laravel-master/bootstrap/app.php" />
+        <option value="$PROJECT_DIR$/laravel-master/vendor/laravel/framework/src/Illuminate/Container/Container.php" />
+        <option value="$PROJECT_DIR$/laravel-master/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-translation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-translation" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-translation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-translation" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51a21b7c-4cf6-498d-9f93-60767909ecb0" name="Default" comment="" />
+      <created>1508774499367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508774499367</updated>
+      <workItem from="1508774502637" duration="460000" />
+      <workItem from="1508853874797" duration="2389000" />
+      <workItem from="1508856740608" duration="4370000" />
+      <workItem from="1508944735471" duration="804000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8023000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st day" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st day" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/laravel-master/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/vendor/laravel/framework/src/Illuminate/Foundation/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/vendor/laravel/framework/src/Illuminate/Container/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6460">
+          <caret line="346" column="20" lean-forward="false" selection-start-line="346" selection-start-column="20" selection-end-line="346" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/vendor/laravel/framework/src/Illuminate/Container/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6460">
+          <caret line="346" column="20" lean-forward="false" selection-start-line="346" selection-start-column="20" selection-end-line="346" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="147" column="77" lean-forward="true" selection-start-line="147" selection-start-column="77" selection-end-line="147" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/vendor/laravel/framework/src/Illuminate/Foundation/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="551" column="50" lean-forward="false" selection-start-line="551" selection-start-column="50" selection-end-line="551" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-master/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
