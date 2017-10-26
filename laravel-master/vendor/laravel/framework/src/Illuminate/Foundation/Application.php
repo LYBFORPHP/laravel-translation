@@ -146,11 +146,11 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
         if ($basePath) {
             $this->setBasePath($basePath);
         }
-
+        //注册基础绑定
         $this->registerBaseBindings();
-
+        //注册基础服务提供者
         $this->registerBaseServiceProviders();
-
+        //注册核心容器别名
         $this->registerCoreContainerAliases();
     }
 
@@ -565,6 +565,7 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
             $provider = $this->resolveProvider($provider);
         }
 
+        //调用自身的register方法
         if (method_exists($provider, 'register')) {
             $provider->register();
         }
@@ -609,7 +610,7 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
 
     /**
      * Mark the given provider as registered.
-     *
+     *将服务提供者加入服务提供者数组
      * @param  \Illuminate\Support\ServiceProvider  $provider
      * @return void
      */

@@ -14,14 +14,14 @@ class Container implements ArrayAccess, ContainerContract
 {
     /**
      * The current globally available container (if any).
-     *
+     *当前的可用全局容器（如果存在）
      * @var static
      */
     protected static $instance;
 
     /**
      * An array of the types that have been resolved.
-     *
+     *一个已经解决依赖的数组
      * @var array
      */
     protected $resolved = [];
@@ -35,7 +35,7 @@ class Container implements ArrayAccess, ContainerContract
 
     /**
      * The container's method bindings.
-     *
+     *容器的方法绑定
      * @var array
      */
     protected $methodBindings = [];
@@ -77,7 +77,7 @@ class Container implements ArrayAccess, ContainerContract
 
     /**
      * The stack of concretions currently being built.
-     *
+     *目前正在构造的具体堆栈
      * @var array
      */
     protected $buildStack = [];
@@ -541,7 +541,7 @@ class Container implements ArrayAccess, ContainerContract
 
     /**
      * Resolve the given type from the container.
-     *
+     *解决来自容器的类型的依赖
      * @param  string  $abstract
      * @return mixed
      */
@@ -614,7 +614,7 @@ class Container implements ArrayAccess, ContainerContract
 
     /**
      * Get the contextual concrete binding for the given abstract.
-     *
+     *得到所提供的抽象的具体绑定
      * @param  string  $abstract
      * @return string|null
      */
@@ -640,7 +640,7 @@ class Container implements ArrayAccess, ContainerContract
 
     /**
      * Find the concrete binding for the given abstract in the contextual binding array.
-     *
+     *在上下文绑定数组中找出所提供抽象类的具体绑定
      * @param  string  $abstract
      * @return string|null
      */
